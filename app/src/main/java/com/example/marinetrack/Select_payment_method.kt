@@ -16,16 +16,16 @@ class Select_payment_method : AppCompatActivity() {
         val bankCardPayButton: Button = findViewById(R.id.bank_card_pay)
         val bankSlipButton: Button = findViewById(R.id.bank_slip)
 
-        bankCardPayButton.setOnClickListener {
-            Toast.makeText(this, "Redirecting to Bank Card Payment", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, Card_payment::class.java)
-            startActivity(intent)
-        }
-
-        bankSlipButton.setOnClickListener {
-            Toast.makeText(this, "Opening Bank Slip", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, Slip_payment::class.java)
-            startActivity(intent)
-        }
+//        bankCardPayButton.setOnClickListener {
+//            Toast.makeText(this, "Redirecting to Bank Card Payment", Toast.LENGTH_SHORT).show()
+//            val intent = Intent(this, Card_payment::class.java)
+//            startActivity(intent)
+//        }
+//
+//        bankSlipButton.setOnClickListener {
+//            Toast.makeText(this, "Opening Bank Slip", Toast.LENGTH_SHORT).show()
+//            val intent = Intent(this, Slip_payment::class.java)
+//            startActivity(intent)
+//        }
     }
 }
